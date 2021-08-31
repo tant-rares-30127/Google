@@ -26,8 +26,13 @@ a{
 }
 #search{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
+    border: solid 1px gray;
+    border-radius: 30px;
+    height: 40px;
+    width: 30%;
+    margin-left: 35%;
 }
 #search-buttons{
     display: flex;
@@ -35,22 +40,21 @@ a{
     margin-top: 30px;
     gap: 20px;
 }
-#footer{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
 #search-bar{
-    height: 40px;
-    width: 30%;
-    border: solid 1px gray;
-    border-radius: 30px;
+    height: 90%;
+    width: 90%;
     padding-left: 10px;
     padding-right: 10px;
+    border: transparent;
     /* box-shadow: 0px 1px 5px black; */
 }
 #search-bar:focus-visible{
     outline: none;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 #offerings{
     display: flex;
