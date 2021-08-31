@@ -70,3 +70,12 @@ a{
     display: flex;
     align-items: flex-end;
 }
+
+.textLink{
+    text-decoration: none;
+    color: black;
+}
+
+.textLink:hover{
+    text-decoration: underline;
+}
