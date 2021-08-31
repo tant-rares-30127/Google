@@ -1,0 +1,43 @@
+html{height: 100%; min-height: 100%;}
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+a{
+    margin: 10px 10px;
+    align-self: center;
+}
+#myphoto{
+    border-radius: 50%;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#search-bar{
+    height: 40px;
+    width: 30%;
+}
