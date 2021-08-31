@@ -1,5 +1,5 @@
 html{height: 100%; min-height: 100%;}
-#allpage{
+.allpage{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,20 +11,20 @@ a{
     margin: 10px 10px;
     align-self: center;
 }
-#myphoto{
+.myphoto{
     border-radius: 50%;
 }
-#navbar{
+.navbar{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
-#logo{
+.logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#search{
+.search{
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -34,13 +34,18 @@ a{
     width: 30%;
     margin-left: 35%;
 }
-#search-buttons{
+.search-buttons{
     display: flex;
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
+    height: 13%;
 }
-#search-bar{
+.btn{
+    background-color: #f8f9fa;
+    border: #f8f9fa;
+}
+.search-bar{
     height: 90%;
     width: 90%;
     padding-left: 10px;
@@ -48,24 +53,25 @@ a{
     border: transparent;
     /* box-shadow: 0px 1px 5px black; */
 }
-#search-bar:focus-visible{
+.search-bar:focus-visible{
     outline: none;
 }
-#footer{
+.footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background-color: #dadce0;
 }
-#offerings{
+.offerings{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#leftfooter{
+.leftfooter{
     display: flex;
     align-items: flex-start;
 }
-#rightfooter{
+.rightfooter{
     display: flex;
     align-items: flex-end;
 }
