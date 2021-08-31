@@ -19,7 +19,7 @@ a{
     justify-content: flex-end;
     flex-direction: row;
 }
-.logo{
+.center{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,11 +61,6 @@ a{
     justify-content: space-between;
     flex-direction: row;
     background-color: #dadce0;
-}
-.offerings{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .leftfooter{
     display: flex;
