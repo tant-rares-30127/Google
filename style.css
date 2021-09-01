@@ -2,31 +2,38 @@ html {
   height: 100%;
   min-height: 100%;
 }
+
 .allpage {
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 .spacer {
   flex-grow: 1;
 }
+
 a {
   margin: 10px 10px;
   align-self: center;
 }
+
 .myphoto {
   border-radius: 50%;
 }
+
 .navbar {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 }
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .search {
   display: flex;
   justify-content: space-between;
@@ -37,6 +44,7 @@ a {
   width: 30%;
   margin-left: 35%;
 }
+
 .search-buttons {
   display: flex;
   justify-content: center;
@@ -44,16 +52,19 @@ a {
   gap: 20px;
   height: 13%;
 }
+
 .btn {
   background-color: #f8f9fa;
   border: #f8f9fa;
 }
+
 .btn:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
 }
+
 .search-bar {
   height: 90%;
   width: 90%;
@@ -62,19 +73,23 @@ a {
   border: transparent;
   /* box-shadow: 0px 1px 5px black; */
 }
+
 .search-bar:focus-visible {
   outline: none;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-color: #dadce0;
 }
+
 .leftfooter {
   display: flex;
   align-items: flex-start;
 }
+
 .rightfooter {
   display: flex;
   align-items: flex-end;
