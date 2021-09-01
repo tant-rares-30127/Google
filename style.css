@@ -19,7 +19,7 @@ html {
   flex-grow: 0.3;
 }
 
-.spacer {
+.down-spacer {
   flex-grow: 1;
 }
 
@@ -155,4 +155,13 @@ a {
 
 .textLink:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .hero .form-container form input {
+    width: 500px;
+  }
+  .lowerfooter {
+    flex-direction: column;
+  }
 }
