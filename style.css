@@ -67,7 +67,9 @@ a {
   border-radius: 30px;
   height: 40px;
   width: 30%;
+  min-width: 200px;
   margin-left: 35%;
+  margin-right: 35%;
 }
 
 .search:hover {
