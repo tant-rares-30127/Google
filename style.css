@@ -48,7 +48,7 @@ a {
 }
 
 .topImg:hover {
-  background-color: #030d18;
+  background-color: #949494;
   border-radius: 50%;
 }
 
@@ -57,13 +57,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #3c4043;
 }
 
 .logo {
@@ -113,10 +106,14 @@ a {
 }
 
 .btn:hover {
-  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  background-color: #f8f9fa;
-  border: 1px solid #dadce0;
-  color: #202124;
+  box-shadow: 0px 1px 5px #949494;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3c4043;
 }
 
 .upperfooter {
