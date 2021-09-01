@@ -55,6 +55,10 @@ a {
   color: #3c4043;
 }
 
+.logo {
+  margin: 5px;
+}
+
 .search {
   display: flex;
   justify-content: space-between;
